@@ -1,4 +1,4 @@
-#$Revision: 1.2 $, $Date: 2004-04-16 21:15:22 $
+#$Revision: 1.3 $, $Date: 2004-04-17 10:27:29 $
 
 %define         _name Realistic
 
@@ -14,6 +14,7 @@ Source0:	http://www.metawire.org/%7Ejpcohen/files/%{_name}.tar.gz
 URL:		http://www.kde-look.org/content/show.php?content=9707
 Requires:	kdelibs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:      noarch
 
 %description
 %{_name} is a photo-icon theme.
