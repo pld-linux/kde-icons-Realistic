@@ -1,4 +1,4 @@
-#$Revision: 1.4 $, $Date: 2004-05-13 17:52:52 $
+#$Revision: 1.5 $, $Date: 2004-05-19 20:15:21 $
 
 %define		_name	Realistic
 
@@ -17,10 +17,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
 %description
-%{_name} is a photo-icon theme.
+%{_name} is a photo-realistic icon theme.
 
 %description -l pl
-%{_name} to fotograficzny motyw ikon.
+%{_name} to motyw ikon cechuj±cy siê szczególn± fotograficzn± 
+jako¶ci±.
 
 %prep
 
