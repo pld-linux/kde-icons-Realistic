@@ -1,6 +1,6 @@
-#$Revision: 1.3 $, $Date: 2004-04-17 10:27:29 $
+#$Revision: 1.4 $, $Date: 2004-05-13 17:52:52 $
 
-%define         _name Realistic
+%define		_name	Realistic
 
 Summary:	KDE icons - %{_name}
 Summary(pl):	Motyw ikon do KDE - %{_name}
@@ -14,7 +14,7 @@ Source0:	http://www.metawire.org/%7Ejpcohen/files/%{_name}.tar.gz
 URL:		http://www.kde-look.org/content/show.php?content=9707
 Requires:	kdelibs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildArch:      noarch
+BuildArch:	noarch
 
 %description
 %{_name} is a photo-icon theme.
