@@ -1,4 +1,4 @@
-#$Revision: 1.1 $, $Date: 2004-04-16 18:49:35 $
+#$Revision: 1.2 $, $Date: 2004-04-16 21:15:22 $
 
 %define         _name Realistic
 
@@ -34,4 +34,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_iconsdir}/
+%{_iconsdir}/*
