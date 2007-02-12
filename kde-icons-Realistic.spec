@@ -1,9 +1,9 @@
-#$Revision: 1.5 $, $Date: 2004-05-19 20:15:21 $
+#$Revision: 1.6 $, $Date: 2007-02-12 00:48:58 $
 
 %define		_name	Realistic
 
 Summary:	KDE icons - %{_name}
-Summary(pl):	Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	20040407
 Release:	1
@@ -19,9 +19,9 @@ BuildArch:	noarch
 %description
 %{_name} is a photo-realistic icon theme.
 
-%description -l pl
-%{_name} to motyw ikon cechuj±cy siê szczególn± fotograficzn± 
-jako¶ci±.
+%description -l pl.UTF-8
+%{_name} to motyw ikon cechujÄ…cy siÄ™ szczegÃ³lnÄ… fotograficznÄ… 
+jakoÅ›ciÄ….
 
 %prep
 
