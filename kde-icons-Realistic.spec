@@ -1,9 +1,9 @@
-#$Revision: 1.6 $, $Date: 2007-02-12 00:48:58 $
+#$Revision: 1.7 $, $Date: 2007-02-13 08:06:36 $
 
 %define		_name	Realistic
 
 Summary:	KDE icons - %{_name}
-Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):	Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	20040407
 Release:	1
